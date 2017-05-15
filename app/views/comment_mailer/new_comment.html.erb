@@ -1,0 +1,14 @@
+<p>
+A new comment was posted for your post ( <%= @post.title %> )
+</p>
+
+<blockquote>
+	<em>
+	<%= @comment.body %>
+	</em>
+</blockquote>
+	
+<p>
+To reply to this comment, please visit the post at :
+	<%= link_to "Go to Post", @post %>.
+</p>
